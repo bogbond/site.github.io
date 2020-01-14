@@ -165,3 +165,14 @@ aside {
 .lbar{
     margin-right: 38px;
 }
+
+.topic{
+  width: 40%; /* Ширина слоя */ 
+  position: relative;
+  left: 15%;
+  padding: 10px; /* Внутренние поля вокруг содержимого */ 
+  background: #e0e0e0bb; /* Цвет заднего фона */
+  border: 1px solid #a5a5a5;
+  
+
+}

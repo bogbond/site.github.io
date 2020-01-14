@@ -5,6 +5,8 @@
         <title>Blog</title>
         <link rel="stylesheet" href="style.css">
         <link rel="shortcut icon" type="image/ico" href="img/logo_s.ico"/>
+        <script src="jquery-3.4.1.min.js"></script>
+        <script src="script.js"></script>
     </head>
 
     <body>
@@ -28,18 +30,29 @@
             <a href="#" class="w3-bar-item w3-button">Link 1</a>
             <a href="#" class="w3-bar-item w3-button">Link 2</a>
             <a href="#" class="w3-bar-item w3-button">Link 3</a>
+        </div>
+        
+        <div style="margin-right:25%">
+            <h2 style="padding-top: 35px; font-size: 250%;">Blog</h2>
+        </div>
+        <div class="topic">
+            <h3 style="background-color: #e0e0e0f5; font-size: x-large;">Started learning JavaScript</h3>
+            <time datetime="2020-01-13">13 January 2020</time>
+            <p>Simple calculator a + b = c . Try it!</p>
+            <br/><br/>
+
+            <div style="background-color: rgb(255, 246, 245); border: 1px solid #a5a5a5; background-size: auto; width: 30%; padding-left: 70px; padding-right: -100px; margin-left: 30%; ">
+                <br/>
+                <input style="width: 70px;" id="val1" type="number"/> <br/>
+               <p>+</p>
+                <input style="width: 70px;"id="val2" type="number"/> <br/>
+                
+                <p>=</p>
+              <div style="color: blue;" id="res">RESULT</div>
+              <br/>
           </div>
-        <!--<aside>
-            <ul>
-                <li><a href="https://www.google.com">1</a></li>
-                <li><a href="google.com">2</a></li>
-                <li><a href="google.com">3</a></li>
-
-
-            </ul>
-
-        </aside>
-    -->
+          <br/>
+        </div>
 
     </body>
 
