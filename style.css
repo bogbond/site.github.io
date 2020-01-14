@@ -167,12 +167,25 @@ aside {
 }
 
 .topic{
-  width: 40%; /* Ширина слоя */ 
+  /*width: 40%;  Ширина слоя */ 
+  padding-right: 20px;
   position: relative;
   left: 15%;
   padding: 10px; /* Внутренние поля вокруг содержимого */ 
-  background: #e0e0e0bb; /* Цвет заднего фона */
+  /*background: #e0e0e0bb;  Цвет заднего фона */
+  background-color: #e0e0e0bb;
   border: 1px solid #a5a5a5;
   
+
+}
+
+.topic_v2{
+
+  width: 40%;	height: 30%; /* Размеры */
+  background: rgba(194, 192, 183, 0.637); /* Цвет фона */
+  outline: 2px solid #000; /* Чёрная рамка */
+  border: 3px solid #fff; /* Белая рамка */
+  border-radius: 10px; /* Радиус скругления */
+  margin-left: 15%;
 
 }
