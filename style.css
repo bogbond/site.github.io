@@ -189,3 +189,14 @@ aside {
   margin-left: 15%;
 
 }
+
+.ace_gutter{
+
+position: absolute;
+overflow: hidden;
+top: 0;
+bottom: 0;
+cursor: default;
+user-select: none;
+
+}
